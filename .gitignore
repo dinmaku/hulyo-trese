@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+
+# Impeccable local consent / machine-only
+.impeccable/config.local.json
+.impeccable/mocks/
+
+# Downloaded Impeccable binary (platform-specific; the launcher fetches it)
+.cursor/skills/impeccable/scripts/bin/
